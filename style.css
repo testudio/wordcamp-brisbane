@@ -2,6 +2,25 @@ html {
     scroll-behavior: smooth;
 }
 
+main > div {
+    padding-top: 0 !important;
+}
+
+main {
+    margin-top: 0 !important;
+}
+
+/* Home page. */
 .home h1 {
     display: none;
+}
+
+/* Form */
+.wp-block-button__link {
+    height: auto;
+}
+
+/* Other styles */
+.rounded-25 {
+    border-radius: 25px;
 }
